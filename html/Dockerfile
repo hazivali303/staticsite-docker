@@ -1,2 +1,2 @@
 FROM nginx
-COPY . /usr/share/nginx/html
+COPY  /var/lib/jenkins/workspace/docker/Dockerfile /usr/share/nginx/html
